@@ -11,8 +11,8 @@ function App() {
           <img alt="logo" className="logo" src={logo}/>
           <h1 className="heading">COMMING SOON</h1>
           <div className="socialsBlock">
-            <a href="https://t.me/bootmanvsjokar" target="_blank" rel="noopener noreferrer"><img className="social" alt="TG" src={TG} /></a>
-            <a href="https://twitter.com/bootmanvsjokar" target="_blank" rel="noopener noreferrer"><img className="social" alt="TW" src={TW} /></a>
+            <a href="https://t.me/bwanos" target="_blank" rel="noopener noreferrer"><img className="social" alt="TG" src={TG} /></a>
+            <a href="https://twitter.com/bwanos_" target="_blank" rel="noopener noreferrer"><img className="social" alt="TW" src={TW} /></a>
           </div>
         </div>
       </div>
