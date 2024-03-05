@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  transform: translateY(-35%);
+  animation: floatAnimation 2s ease-in-out infinite;
+}
+.section1 {
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.main {
+  padding: 200px 0px;
+  color: #fff;
+}
+.batjockBlock{
+  display: none;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  font-size: 64px;
+}
+
+.socialsBlock {
+  margin-top:100px;
+  transform: translateY(-50%);
+  animation: floatAnimation 2s ease-in-out infinite; /* Adjust the animation duration and timing function as needed */
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the floating distance as needed */
+  }
+}
+
+.social {
+  margin: 0px 20px;
+}
+@media only screen and (max-width: 420px) {
+  .main{
+    padding: 100px 0px;
+  }
+  .batjockBlock{
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .main{
+    padding: 420px 0px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main{
+    padding: 200px 0px;
+  }
+}
