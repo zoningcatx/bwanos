@@ -4,7 +4,6 @@
 }
 .logo {
   transform: translateY(-35%);
-  animation: floatAnimation 2s ease-in-out infinite;
 }
 .section1 {
   background-image: url(./assets/bg.png);
@@ -12,7 +11,7 @@
   background-position: center;
   height: 100%;
   text-align: center;
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Luckiest Guy", cursive;
 }
 
 .main {
@@ -26,7 +25,8 @@
 
 .heading {
   padding-top: 20px;
-  font-size: 64px;
+  font-size: 124px;
+  -webkit-text-stroke: 1px black;
 }
 
 .socialsBlock {
@@ -63,6 +63,6 @@
 }
 @media only screen and (min-width: 1400px) {
   .main{
-    padding: 200px 0px;
+    padding: 380px 0px;
   }
 }
