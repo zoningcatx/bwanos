@@ -37,7 +37,7 @@
 .button {
   margin-top: 50px;
   padding: 30px 20px 15px 20px;
-  border: 0;
+  border: 4px solid black;
   border-radius: 10px;
   background-color: #4FD2EF;
   font-size: 52px;
@@ -100,7 +100,20 @@
     transform: translateY(-10px); /* Adjust the floating distance as needed */
   }
 }
-
+.ca {
+  padding:10px 20px;
+  margin: 0 auto;
+  background-color: #4FD2EF;
+  width: 800px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-bottom: 30px;
+}
+.caText {
+  font-family: "Luckiest Guy", cursive;
+  color: #000;
+  font-size: 30px;
+}
 .social {
   margin: 0px 20px;
 }
@@ -123,6 +136,13 @@
   }
   .section3{
     background-image: url("./assets/bgmob.png");
+  }
+  .ca {
+    width: 420px;
+  }
+  .caText{
+    font-size:14px;
+    font-family: "Verdana", sans-serif;
   }
 }
 @media only screen and (min-width: 1600px) {

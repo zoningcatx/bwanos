@@ -4,11 +4,15 @@ import TG from "./assets/TG.png"
 import TW from "./assets/TW.png"
 
 function App() {
+
+  const contract = "bwn3NoUL5wzVQzsPcW5CsAsHFBwWf3XtDWNyyfaquQM"
+
   return (
     <div className="App">
       <div className="section1">
         <div className="main">
           <img alt="logo" className="logo" src={logo}/>
+          <div className="ca"><p className="caText">CA: {contract}</p></div>
           <h1 className="heading">PLOMO O PLATA</h1>
           <div className="socialsBlock">
             <a href="https://t.me/bwanos" target="_blank" rel="noopener noreferrer"><img className="social" alt="TG" src={TG} /></a>
